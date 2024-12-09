@@ -141,3 +141,12 @@ body {
     text-align: center;
     width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    .background_day {
+        width: 100vw; /* Ширина равна ширине экрана */
+        height: 100vh; /* Высота равна высоте экрана */
+        object-fit: cover; /* Убедимся, что изображение сохраняет пропорции */
+        background-size: cover; /* Убедимся, что изображение заполняет фон */
+    }
+}
