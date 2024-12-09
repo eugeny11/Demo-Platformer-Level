@@ -4,7 +4,7 @@
 
 This project is a **demonstration level** of a platformer game, designed to showcase my skills as a junior developer. It's a personal project where I implemented core gameplay mechanics, animations, and interactions to simulate a small but functional game world.
 
-[Demo Screenshot](./screenshot.jpg)
+[Demo Screenshot](./Screenshot_1.jpg)
 ---
 
 ## 📖 Storyline
