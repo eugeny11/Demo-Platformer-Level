@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Manrope:wght@200..800&family=Press+Start+2P&display=swap");
+
+body {
+    background-color: black;
+}
+
+#canvas {
+    background-color: black;
+}
+
+/* Hero */
+
+#right {
+    font-size: 25pt;
+}
+
+#jump-block {
+    position: absolute;
+    width: 144px;
+    height: 144px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 0;
+    transform: translateY(-100%);
+    opacity: 0.5;
+}
+
+#jump-sprite {
+    position: absolute;
+    top: -144px;
+    left: -144px;
+    width: 864px;
+    height: 576px;
+    transform: scale(-1, 1);
+}
+
+.jump-sprite__above {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 140px;
+    height: 140px;
+    border: 2px solid rgb(0, 136, 255);
+    border-radius: 50%;
+}
+
+#hit-block {
+    position: absolute;
+    width: 144px;
+    height: 144px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    transform: translateY(-100%);
+    right: 0;
+    opacity: 0.5;
+}
+
+#hit-sprite {
+    position: absolute;
+    top: -452px;
+    left: -442px;
+    width: 864px;
+    height: 576px;
+    transform: scale(-1, 1);
+}
+
+.hit-sprite__above {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 140px;
+    height: 140px;
+    border: 2px solid rgb(0, 136, 255);
+    border-radius: 50%;
+}
+
+#fsBtn {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#restartBtn {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    right: 80px;
+}
+
+#img-block {
+    width: 96px;
+    height: 96px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    bottom: 64px;
+}
+
+#hero-img {
+    width: 576px;
+    height: 384px;
+    position: relative;
+    top: 0px;
+    left: -96px;
+    transform: scale(-1, 1);
+}
+
+/* Environment */
+
+.background_day {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 200vw; /* Покрывает вдвое больше ширины экрана */
+    height: auto;
+    object-fit: cover;
+}
+
+#info {
+    position: absolute;
+    left: 64px;
+    top: 96px;
+    background-color: black;
+    padding: 20px;
+    color: #fff;
+    font-size: 20pt;
+    display: none;
+}
+
+#final-timer-text {
+    position: absolute;
+    font-family: "Bungee Spice", cursive;
+    font-size: 100px;
+    text-align: center;
+    width: 100%;
+}
