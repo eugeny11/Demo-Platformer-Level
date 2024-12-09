@@ -117,9 +117,10 @@ body {
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 200vw; /* Покрывает вдвое больше ширины экрана */
-    height: auto;
+    width: 200vw;
+    height: 100vh;
     object-fit: cover;
+    background-size: cover;
 }
 
 #info {
