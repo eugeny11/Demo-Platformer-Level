@@ -145,7 +145,7 @@ body {
 @media screen and (max-width: 768px) {
     .background_day {
         width: 100vw; 
-        height: 100vh; 
+        height: 100%; 
         background-size: cover; 
     }
 }
